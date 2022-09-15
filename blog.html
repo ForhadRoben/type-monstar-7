@@ -25,25 +25,33 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        localStorage and sessionStorage are almost the same. Both have the following rules:
-                        <br>
-                        1.They store key/value pairs for a particular domain.
-                        <br>
-                        2.The values stored may only be strings.
-                        <br>
-                        3.They have a limit of around 5MB of storage space.
-                        <br>
-                        The one major difference between localStorage and sessionStorage is the expiration date.
-                        <br>
+                        <ul>localStorage and sessionStorage are almost the same. Both have the following rules:
 
-                        1.localStorage persists the storage across browser sessions. So even if the domain is opened in
-                        a
-                        new tab, or the browser is closed and reopened, the storage is saved. There is no expiration.
-                        <br>
-                        2.sessionStorage is cleared when the page session ends. A page session lasts as long as the tab
-                        or
-                        the browser is open. Therefore, when we open a new tab or a new window, this creates a new
-                        session and new storage.
+                            <li>They store key/value pairs for a particular domain.</li>
+
+                            <li>The values stored may only be strings.</li>
+
+                            <li>They have a limit of around 5MB of storage space.</li>
+                            <br>
+
+                            The one major difference between localStorage and sessionStorage is the expiration date.
+
+
+                            <li>localStorage persists the storage across browser sessions. So even if the domain is
+                                opened
+                                in
+                                a
+                                new tab, or the browser is closed and reopened, the storage is saved. There is no
+                                expiration.</li>
+
+                            <li>sessionStorage is cleared when the page session ends. A page session lasts as long as
+                                the
+                                tab
+                                or
+                                the browser is open. Therefore, when we open a new tab or a new window, this creates a
+                                new
+                                session and new storage.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -57,13 +65,22 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Global scope — Global scope contains all of the things defined outside of all code blocks. A
-                        code block simply consists of grouped statements inside curly braces ({ }). if statement, loops,
-                        function are examples of structure that create a code block. A global variable has global scope.
-                        A global variable is accessible from anywhere in the code.
-                        <br>
-                        Local Scope — Local scope contains things defined inside code blocks. A local variable has local
-                        scope. A local variable is only accessible where it’s declared.
+                        <ul>
+                            <li>Global scope — Global scope contains all of the things defined outside of all code
+                                blocks. A
+                                code block simply consists of grouped statements inside curly braces ({ }). if
+                                statement,
+                                loops,
+                                function are examples of structure that create a code block. A global variable has
+                                global
+                                scope.
+                                A global variable is accessible from anywhere in the code.</li>
+
+                            <li>Local Scope — Local scope contains things defined inside code blocks. A local variable
+                                has
+                                local
+                                scope. A local variable is only accessible where it’s declared.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -77,14 +94,21 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        The event loop is a mechanism that allows JavaScript to perform non-blocking operations. When an
-                        asynchronous task is started, the event loop will start running. Once the task is completed, the
-                        event loop will again check for any other tasks that need to be performed. This process will
-                        continue until all tasks have been completed.
-                        <br>
-                        Event loops are most often used in programming languages that are based on the event-driven
-                        programming paradigm.Many graphical user interface (GUI) programs are written using the
-                        event-driven programming paradigm, as are many video games.
+                        <ul>
+                            <li>The event loop is a mechanism that allows JavaScript to perform non-blocking operations.
+                                When an
+                                asynchronous task is started, the event loop will start running. Once the task is
+                                completed,
+                                the
+                                event loop will again check for any other tasks that need to be performed. This process
+                                will
+                                continue until all tasks have been completed.</li>
+
+                            <li>Event loops are most often used in programming languages that are based on the
+                                event-driven
+                                programming paradigm.Many graphical user interface (GUI) programs are written using the
+                                event-driven programming paradigm, as are many video games.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -92,12 +116,25 @@
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Accordion Item #3
+                        How we get undefined value in javascript?
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
+                        <ul>
+                            <li>A variable that has not been assigned a value is of type undefined. A method or
+                                statement
+                                also
+                                returns undefined if the variable that is being evaluated does not have an assigned
+                                value. A
+                                function returns undefined if a value was not returned.</li>
+                            <li>We can use undefined and the strict equality and inequality operators to determine
+                                whether a
+                                variable has a value.We can also use typeof operator and it does not throw an error if
+                                the
+                                variable has not been declared.</li>
+                        </ul>
 
                     </div>
                 </div>
